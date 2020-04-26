@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      
+      <link rel="stylesheet" href="https://use.typekit.net/div7rpa.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+  integrity="sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A="
+  crossorigin="anonymous"></script>
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+  integrity="sha256-4hqlsNP9KM6+2eA8VUT0kk4RsMRTeS7QGHIM+MZ5sLY="
+  crossorigin="anonymous"/>
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+  integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI="
+  crossorigin="anonymous"/>
+      
+           <script type="text/javascript">
+  $(document).ready(function() {
+    $('.whatsNextSlick').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+
+        responsive: [
+               {
+                breakpoint:767,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite:true,
+                   centerMode: true,
+                    centerPadding: '20%'
+                }
+              
+            }
+            
+//            {
+//                    breakpoint:980,
+//                    settings: {
+//                    slidesToShow: 2,
+//                    slidesToScroll: 1,
+//                    infinite:true
+//                  
+//                }
+//            
+//                
+//            }
+         
+            
+            
+        ]
+    });
+
+
+
+  });
+</script>
+
+      <style type="text/css">
+      
+              .whats-next-container{
+          background-color: rgba(188,161,204,0.1);
+
+    }
+    
+    .whats-next-container .insideContainer{
+        background-color:#FFFFFF;
+        max-width:290px;
+        
+    }
+    
+    .whats-next-container .leftContent img{
+       float:left;
+       clear:left;
+        margin-right:14px;
+    }
+    
+     .whats-next-container .rightContent {
+      height:159px;
+    }
+    
+     .whats-next-container .rightContent h4{
+        padding-top: 14px;
+        padding-right:20px;
+    }
+    
+    .whats-next-container .rightContent h4 {
+        padding-top: 14px;
+        padding-right: 20px;
+        font-family: Beausite Fit Regular;
+        line-height: 22px;
+        font-size: 17.5px !important;
+        letter-spacing: -0.48px;
+        text-align: left;
+        color: #41173F;
+    }
+
+    
+    .whats-next-container .rightContent a.whatsNextLink{
+        display:flex !important;
+        margin-bottom:20px;
+        margin-top:30px;
+        border:0px;
+    }
+
+
+
+
+.whatsNextSlick .slick-prev,
+.whatsNextSlick  .slick-next{
+    background:transparent;
+    border-radius:0;
+
+}
+
+
+
+.whatsNextSlick  .slick-prev {
+    left: -25px;
+}
+
+.whatsNextSlick .slick-next {
+    right: -25px;
+}
+
+.whatsNextSlick .slick-prev,
+.whatsNextSlick .slick-next {
+    width: 30px;
+    height: 30px;
+}
+
+.slick-prev:before {
+    content: '‹';
+}
+
+.slick-next:before {
+    content: '›';
+ 
+}
+
+.slick-next:before,
+.slick-prev:before {
+    font-family: proxima-nova, sans-serif !important;
+    color: #333;
+    font-size: 30px;    
+}
+    
+
+
+       
+    
+    @media(max-width: 767px) {
+        .slick-list {
+            padding-left: 0px!important; 
+        }
+        
+    .whatsNextSlick .slick-prev, .whatsNextSlick .slick-next {
+        background: transparent !important;
+        top: 0;
+        box-shadow: none;
+        width:30px;
+        height:30px;
+        border-radius: 0;
+    
+       
+     }
+        .whatsNextSlick .slick-prev{
+             right: 30px;
+        left: unset;
+        }
+        
+    }
+    
+    
+/*         @media(max-width: 360px) and (min-width:320px)*/
+    @media only screen and (max-width:320px)
+         {
+        
+        .whatsNextSlick .leftContent img{
+/*            width:40%*/
+            height:159px;
+            
+        }
+        
+        .whats-next-container .rightContent h4 {
+            padding-top: 5px;
+            padding-right: 5px;
+            font-family: Beausite Fit Regular;
+            line-height: 17px;
+            font-size: 14px !important;
+            letter-spacing: -0.48px;
+            text-align: left;
+            color: #41173F;
+        }
+        
+        .whats-next-container .rightContent a.whatsNextLink {
+            display: flex !important;
+            margin-bottom: 0px;
+            margin-top: 15px;
+            border: 0px;
+        }
+        
+    }
+    
+
+    
+        @media(max-width: 375px) and (min-width:360px) {
+        
+        .whatsNextSlick .leftContent img{
+/*            width:40%*/
+            height:159px;
+            
+        }
+        
+        .whats-next-container .rightContent h4 {
+               padding-top: 10px;
+                padding-right: 11px;
+                font-family: Beausite Fit Regular;
+                line-height: 17px;
+                font-size: 17.5px !important;
+                letter-spacing: -0.48px;
+                text-align: left;
+                color: #41173F;
+        }
+        
+        
+       .whats-next-container .rightContent a.whatsNextLink {
+            display: flex !important;
+            margin-bottom: 0px;
+            margin-top: 15px;
+            border: 0px;
+            }
+        
+    }
+    
+    
+
+     @media(max-width:980px) and (min-width:900px) {
+            .whats-next-container .rightContent h4 {
+            padding-top: 6px;
+            padding-right: 5px;
+            font-family: Beausite Fit Regular;
+            line-height: 18px;
+            font-size: 15.5px !important;
+            letter-spacing: -0.48px;
+            text-align: left;
+            color: #41173F;
+        }
+        
+        .whats-next-container .rightContent a.whatsNextLink {
+            display: flex !important;
+            margin-bottom: 20px;
+            margin-top: 16px;
+            border: 0px;
+        }
+        .whats-next-container .leftContent img {
+            float: left;
+            clear: left;
+            margin-right: 10px;
+        }
+    }
+    
+      
+      </style>
+  </head>
+  <body>
+   
+
+
+      
+         <!-- What's Next Carousel -->
+
+    <div class="container-fluid whats-next-container">
+        
+        
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 d-block d-sm-flex">
+                <div class="col-md-3 col-sm-12 d-flex flex-column align-items-center justify-content-center">
+                    <h3>What's Next</h3>
+                </div>
+                <div class="col-md-9 col-sm-12 mb-4 mt-4">
+                    <div class="whatsNextSlick">
+            
+                        <div class="slide1Container">
+                            <div class="insideContainer">
+                                <div class="leftContainer">
+                                    <div class="leftContent">
+                                          <picture>
+                                            <source media="(max-width:767px)" srcset="/Users/bzest/Desktop/bootstrap/carousel example/whatsnew-image-01.jpg" class="justBecause"/>
+                                            <img src="/Users/bzest/Desktop/bootstrap/carousel example/whatsnew-image-01.jpg"  class="justBecause" />
+                                        </picture>
+                                    </div>
+
+                                </div>
+
+                                <div class="rightContainer">
+                                    <div class="rightContent">
+
+<!--                                        <p class="heading">Our Mother's Day Gift Guide is out now!</p>-->
+                                          <h4>Our Mother's Day Gift Guide is out now!</h4>
+                                         <a href="#" class="btn-primary cta body-font whatsNextLink" >Browse Catalogue ›</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                          <div class="slide1Container">
+                            <div class="insideContainer">
+                                <div class="leftContainer">
+                                    <div class="leftContent">
+                                       <picture>
+                                            <source media="(max-width:767px)" srcset="/Users/bzest/Desktop/bootstrap/carousel example/whatsnew-image-01.jpg" class="justBecause"/>
+                                            <img src="/Users/bzest/Desktop/bootstrap/carousel example/whatsnew-image-01.jpg"  class="justBecause" />
+                                        </picture>
+                                    </div>
+
+                                </div>
+
+                                <div class="rightContainer">
+                                    <div class="rightContent">
+
+                                        <h4>Our Mother's Day Gift Guide is out now!</h4>
+                                         <a href="#" class="btn-primary cta body-font whatsNextLink">Browse Catalogue ›</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                          <div class="slide1Container">
+                            <div class="insideContainer">
+                                <div class="leftContainer">
+                                    <div class="leftContent">
+                                          <picture>
+                                            <source media="(max-width:767px)" srcset="/Users/bzest/Desktop/bootstrap/carousel example/whatsnew-image-01.jpg" class="justBecause"/>
+                                            <img src="/Users/bzest/Desktop/bootstrap/carousel example/whatsnew-image-01.jpg"  class="justBecause" />
+                                        </picture>
+                                    </div>
+
+                                </div>
+
+                                <div class="rightContainer">
+                                    <div class="rightContent">
+
+                                        <h4>Our Mother's Day Gift Guide is out now!</h4>
+                                         <a href="#" class="btn-primary cta body-font whatsNextLink">Browse Catalogue ›</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                          <div class="slide1Container">
+                            <div class="insideContainer">
+                                <div class="leftContainer">
+                                    <div class="leftContent">
+                                        <picture>
+                                            <source media="(max-width:767px)" srcset="/Users/bzest/Desktop/bootstrap/carousel example/whatsnew-image-01.jpg" class="justBecause"/>
+                                            <img src="/Users/bzest/Desktop/bootstrap/carousel example/whatsnew-image-01.jpg"  class="justBecause" />
+                                        </picture>
+                                    </div>
+
+                                </div>
+
+                                <div class="rightContainer">
+                                    <div class="rightContent">
+
+                                        <h4>Our Mother's Day Gift Guide is out now!</h4>
+                                         <a href="#" class="btn-primary cta body-font whatsNextLink">Browse Catalogue ›</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                          <div class="slide1Container">
+                            <div class="insideContainer">
+                                <div class="leftContainer">
+                                    <div class="leftContent">
+                                          <picture>
+                                            <source media="(max-width:767px)" srcset="/Users/bzest/Desktop/bootstrap/carousel example/whatsnew-image-01.jpg" class="justBecause"/>
+                                            <img src="/Users/bzest/Desktop/bootstrap/carousel example/whatsnew-image-01.jpg"  class="justBecause" />
+                                        </picture>
+                                    </div>
+
+                                </div>
+
+                                <div class="rightContainer">
+                                    <div class="rightContent">
+
+                                        <h4>Our Mother's Day Gift Guide is out now!</h4>
+                                         <a href="#" class="btn-primary cta body-font whatsNextLink">Browse Catalogue ›</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>     
+    
+   
+    </div>
+      
+ 
+  </body>
+</html>
